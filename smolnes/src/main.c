@@ -1,3 +1,17 @@
+/************************************************************/
+/*    SMOLNES by Ben Smith (Oct 2022) (updated Jun 2025)    */
+/* -------------------------------------------------------- */
+/*                                                          */
+/* A NES emulator that can play mapper 0/1/2/3/4/7 games.   */
+/* Requires gcc/clang and Linux/macOS.                      */
+/*                                                          */
+/* $ cc smolnes.c -O2 -lSDL2 -o smolnes                     */
+/* $ smolnes <rom.nes>                                      */
+/*                                                          */
+/* Controls: DPAD=Arrow keys B=Z A=X Start=Enter Select=Tab */
+/*                                                          */
+/* https://github.com/binji/smolnes/blob/main/smolnes.c     */
+/************************************************************/
 #include <gba.h>
 #include <stdint.h>
 #include <stdio.h>
